@@ -50,4 +50,4 @@ jobs:
           app-name: 'HelloJavaproject'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A353649466FA47AF83CB20286C4C128D }}
-          package: '*.jar'
+          package: '*.war'
